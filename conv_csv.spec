@@ -6,7 +6,7 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[],
-    hiddenimports=[],
+    hiddenimports=['requests'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -17,7 +17,6 @@ pyz = PYZ(a.pure)
 
 exe = EXE(
     pyz,
-    Tree('version',prefix='version'),
     a.scripts,
     a.binaries,
     a.datas,
