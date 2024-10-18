@@ -2,7 +2,7 @@
 
 ## 概要
 
-convert_csv_and_copy は、CSVファイルを選択し、特定の範囲をクリップボードにコピーするアプリケーションです。さらに、GitHubを使用した自動アップデート機能を備えています。このアプリケーションは、PythonとCustomTkinterを使用してGUIを提供します。
+convert_csv_and_copy は、CSVファイルを選択し、特定の範囲をクリップボードにコピーするアプリケーションです。さらに、GitHubを使用した自動アップデート機能を備えています。このアプリケーションは、PythonとCustomTkinterを使用してGUIを提供します。<br>
 **exeファイルのダウンロードは下記のリンクから**
 https://github.com/takumi-saka-mo/convert_csv_and_copy/releases/latest/download/conv_csv.exe
 
@@ -75,4 +75,15 @@ GitHub上のリリース情報を利用した自動アップデート機能が�
 ## License
 
 このプロジェクトはMITライセンスの下で公開.
+
+
+### 僕へ
+GitのデフォルトのHTTPバッファサイズを増やして、Pushを処理しやすくするなるらしい...
+```bash
+git config http.postBuffer 524288000
+```
+↓
+```bash
+git push origin main
+```
 
