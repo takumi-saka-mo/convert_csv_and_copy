@@ -1,6 +1,6 @@
 # convert_csv_and_copy
 
-## 概要
+## Summary
 
 convert_csv_and_copy は、CSVファイルを選択し、特定の範囲をクリップボードにコピーするアプリケーションです。さらに、GitHubを使用した自動アップデート機能を備えています。このアプリケーションは、PythonとCustomTkinterを使用してGUIを提供します。<br>
 **exeファイルのダウンロードは下記のリンクから**
@@ -8,14 +8,14 @@ convert_csv_and_copy は、CSVファイルを選択し、特定の範囲をク�
 https://github.com/takumi-saka-mo/convert_csv_and_copy/releases/latest/download/conv_csv.exe
 
 
-## 機能
+## Option
 
 - CSVファイルの選択と表示
 - UTF-8へのエンコーディング変換
 - 特定の範囲の行・列のデータをクリップボードにコピー
 - GitHubリリースから自動的にアップデート
 
-## 前提条件
+## Environment
 
 - Python 3.6以降
 - 以下のPythonパッケージが必要
