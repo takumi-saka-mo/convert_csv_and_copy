@@ -8,8 +8,8 @@ import requests
 import sys
 
 # アップデート機能の実装
-GITHUB_API_URL = "https://api.github.com/repos/takumi-saka-mo/windows_conv_csv/releases/latest"
-DOWNLOAD_URL = "https://github.com/takumi-saka-mo/windows_conv_csv/releases/latest/download/conv_csv.exe"
+GITHUB_API_URL = "https://api.github.com/repos/takumi-saka-mo/convert_csv_and_copy/releases/latest"
+DOWNLOAD_URL = "https://github.com/takumi-saka-mo/convert_csv_and_copy/releases/latest/download/conv_csv.exe"
 
 def check_for_update(current_version):
     try:
