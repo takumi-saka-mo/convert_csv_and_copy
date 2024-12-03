@@ -80,13 +80,5 @@ GitHub上のリリース情報を利用した自動アップデート機能が�
 このプロジェクトはMITライセンスの下で公開.
 
 
-### 僕へ
-GitのデフォルトのHTTPバッファサイズを増やして、Pushを処理しやすくするなるらしい...
-```bash
-git config http.postBuffer 524288000
-```
-↓
-```bash
-git push origin main
 ```
 
